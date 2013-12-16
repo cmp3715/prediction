@@ -1,11 +1,12 @@
-<h1><%= @event.title %></h1>
+<h1>"heading"><%= @event.title %></h1>
+
 <p><%= @event.description %></p>
 
 Sell Price
-<p><%=  @event.sell_price %></p>
+<p class="sell"><%=  @event.sell_price %></p>
 
 buy Price
-<p><%=  @event.price %></p>
+<p class="buy"><%=  @event.price %></p>
 
 <%= link_to 'Show', events_path %>
 
