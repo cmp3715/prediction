@@ -18,11 +18,38 @@
    -Sass variables translate across files
 
    con:
-     If you forget to add @import statements in here, they won't be included.
+     If you forget to add @import statements in here, they won't be included. */
 
      @import 'variables'; 
      @import 'foundation_and_overrides';
 
+.field {
+	
+	background-color: #B6D7D9;
+	font-family: sans-serif;
+};
 
- */
+body {
+	padding-bottom: 100px;
+	background-color: #2A2A2A;
+	color: blue;
+	text-shadow: 0 1px #000;
+	font: 1.1em/1.5 sans-serif;
+
+}
+h1 {
+	margin-left: 40px auto;
+	font-size: 50px;
+	color: #D490A7;
+};
+.input_page {
+	margin-right: 1.5em;
+	font-family: sans-serif;
+	color: red;
+	font-size: 50px;
+};
+.apple_page {
+	color: #b8D7d4;
+}
+
 
